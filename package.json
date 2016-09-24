@@ -1,13 +1,13 @@
 {
   "name": "prework",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js Bootcamp Prework - Coderschool.vn",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node -- index.js --logFile=log/server.log",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "JohnP",
   "license": "ISC",
   "dependencies": {
     "request": "^2.75.0",

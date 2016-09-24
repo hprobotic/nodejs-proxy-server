@@ -29,7 +29,7 @@ http.createServer((req, res) => {
 
 }).listen(8001)
 
-// Request Server
+// Echo Server
 http.createServer((req, res) => {
 	outputStream.write("\nPong: \n" + JSON.stringify(req.headers));
 	for (let header in req.headers) {
