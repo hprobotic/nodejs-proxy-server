@@ -15,7 +15,7 @@ Completed:
 
 Walkthrough Gif:
 
-![Video Walkthrough](walkthrough.gif)
+![Video Walkthrough](nodejs-prework.gif)
 
 Note: to embed the gif file, just check your gif file into your repo and update the name of the file above.
 
