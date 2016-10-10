@@ -1,8 +1,8 @@
 # Proxy Server
 
-This is a Proxy Server for Node.js submitted as the [pre-work](http://courses.codepath.com/snippets/intro_to_nodejs/prework) requirement for CodePath.
+This is a Proxy Server for Node.js submitted as the [pre-work](http://courses.codepath.com/snippets/intro_to_nodejs/prework) requirement for Coderschool.vn.
 
-Time spent: 5 hours
+Time spent: 2 hours
 
 Completed:
 
