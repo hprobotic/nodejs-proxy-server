@@ -50,7 +50,7 @@ let secLogLevel = {
 
 function log(level, msg, streamObj) {
     if (typeof msg === 'string' && !(streamObj instanceof stream.Stream)) {
-        console.log(`[${chalk.yellow(secLogLevel[level])}] ${chalk.green(msg)}`);
+        console.log(`[${Date.now()}]:[${chalk.yellow(secLogLevel[level])}] ${chalk.green(msg)}`);
     } else if (typeof msg === 'string' && (streamObj instanceof stream.Stream)) {
         streamObj.write(`\n\n[${Date.now()}]:[${secLogLevel[level]}] ${msg}`)
     }
