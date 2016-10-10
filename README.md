@@ -6,12 +6,22 @@ Time spent: 5 hours
 
 Completed:
 
+The following **required** functionality is complete:
+
 * [x] Required: Requests to port `8000` are echoed back with the same HTTP headers and body
 * [x] Required: Requests/reponses are proxied to/from the destination server
 * [x] Required: The destination server is configurable via the `--host`, `--port`  or `--url` arguments
 * [x] Required: The destination server is configurable via the `x-destination-url` header
 * [x] Required: Client requests and respones are printed to stdout
 * [x] Required: The `--logfile` argument outputs all logs to the file specified instead of stdout
+
+The following **optional** functionality is complete:
+
+* [x] Optional: Process forwarding when using --exec argument.
+* [x] Optional: Log by level.
+* [x] Optional: Documentation with -h option.
+* [x] Optional: Support https on proxy server.
+* [x] Optional: Add color to log by using chalk.
 
 Walkthrough Gif:
 
@@ -40,6 +50,7 @@ Port 8001 will proxy to the echo server on port 8000.
 ```bash
 curl -v http://127.0.0.1:8001/coderschool -d "Hello Coderschool - Proxy Server"
 ```
+
 
 ### Configuration:
 
